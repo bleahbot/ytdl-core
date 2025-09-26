@@ -1,0 +1,50 @@
+{
+  "name": "@bleah/ytdl-core",
+  "description": "This is a fork of distube/ytdl-core, fork of ytdl-core module",
+  "keywords": [
+    "youtube",
+    "video",
+    "download",
+    "distube"
+  ],
+  "version": "4.18.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bleahbot/ytdl-core.git"
+  },
+  "author": "bLeaH",
+  "main": "./lib/index.js",
+  "types": "./typings/index.d.ts",
+  "files": [
+    "lib",
+    "typings"
+  ],
+  "dependencies": {
+    "http-cookie-agent": "^7.0.1",
+    "https-proxy-agent": "^7.0.6",
+    "m3u8stream": "^0.8.6",
+    "miniget": "^4.2.3",
+    "sax": "^1.4.1",
+    "tough-cookie": "^5.1.2",
+    "undici": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{js,json,yml,md,ts}\""
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "bugs": {
+    "url": "https://github.com/bleahbot/ytdl-core/issues"
+  },
+  "homepage": "https://github.com/bleahbot/ytdl-core#readme"
+}
